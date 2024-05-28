@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="gb2312"?>
+<data>
+  <NameSpace>"HotUpdateScripts"</NameSpace>
+  <ExcelPath Desc="Excel表路径">"/../Config_Excel/"</ExcelPath>
+  <LocalCSPath Desc="生成本地CS文件路径">"./cs/"</LocalCSPath>.
+  <LocalTxtPath Desc="生成本地配置表文件路径">"./table/"</LocalTxtPath>
+  <TxtPath Desc="拷贝至配置表文件路径">"../../../Assets/HotUpdateResources/TextAsset/table/"</TxtPath>
+  <CSPath Desc="拷贝至CS文件路径">"../../../Assets/Scripts/Table/Entity/"</CSPath>
+  <IsExcuteCopy>true</IsExcuteCopy>
+  <StartLine Desc="从第几行开始读取">3</StartLine>
+  <Attribute Desc="标签"></Attribute>
+  <Partial Desc="可以拓展(0=不可拓展, 1=可拓展)">1</Partial>
+  <Parse>
+    <funcInt Type="Int32">int</funcInt>
+    <funcTupleInt Type="Int32[]">int[]</funcTupleInt>
+    <funcEval Type="String">string</funcEval>
+    <funcBool Type="Bool">bool</funcBool>
+    <funcStr Type="String">string</funcStr>
+    <funcFloat Type="Double">double</funcFloat>
+    <funcTupleFloat Type="Double[]">double[]</funcTupleFloat>
+    <funcLong Type="Int64">long</funcLong>
+    <funcTupleArray Type="Int32[][]">int[][]</funcTupleArray>
+  </Parse>
+  <Ignore Split="," Desc="忽略列表">
+    "faction"
+  </Ignore>
+</data>

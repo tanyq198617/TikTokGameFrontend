@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: fx_long_boom_qiuBoom_al_B_lsy
+  m_Shader: {fileID: 4800000, guid: fd597f75ab0d0124a91ee2374b060247, type: 3}
+  m_ShaderKeywords: _PAR_DISS_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _texFlow:
+        m_Texture: {fileID: 2800000, guid: 69b01b2c1e6a7164eb2c63933336daf8, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _texMain:
+        m_Texture: {fileID: 2800000, guid: df6f50dec919f2b409f475a085ec7f4e, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _texMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texNoise:
+        m_Texture: {fileID: 2800000, guid: 5bf72e1f01d8b2945a89a974b3e62353, type: 3}
+        m_Scale: {x: 5, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DstBlend: 10
+    - _Flow_Mask: 0
+    - _FresnelExp: 3
+    - _Main_uv0: 0
+    - _Mask_uv0: 0
+    - _Noise_polar: 0
+    - _Ns_Mk: 0
+    - _SrcBlend: 5
+    - _UV1: 0
+    - _WaveLength: 10
+    - _WaveSpeed: 0
+    - _ZWrite: 0
+    - _diss: 1
+    - _dissOutLine: 0.05
+    - _par_diss: 1
+    - _pointX: 0
+    - _pointY: 0
+    - _polar: 0
+    - _softDiss: 1
+    - _useCustomData: 0
+    - _useSoftDis: 0
+    - _useWave: 0
+    - _wave: 0
+    m_Colors:
+    - _FlowColor: {r: 2, g: 1.5226415, b: 0.23584902, a: 1}
+    - _FresnelColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MinMax_ange_Scale: {r: -0.5, g: 0.5, b: 0, a: 1}
+    - _UVflow_dist_alADD: {r: -0.05, g: 0.15, b: 0.5, a: 0}
+    - _UVmain_dist_ange: {r: 0.05, g: 0.3, b: 0.5, a: 0}
+    - _UVnoise_rSpd_Scale: {r: 0, g: 2, b: 0, a: 1}
+    - _dissColor: {r: 1, g: 0.4316475, b: 0, a: 0}
+    - _mkR_dist_Min_Max: {r: 0, g: 0, b: -0.5, a: 0.5}
+  m_BuildTextureStacks: []

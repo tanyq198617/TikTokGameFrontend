@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: atlas_admission
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: db9b7ad761ff4bf469dafcbd3bfd4296, type: 3}
+    bindAsDefault: 0
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: b13d4cf0cf2888941ae52eabc1736de2, type: 3}
+  - {fileID: 21300000, guid: 037932a2d439bb94385577adb8e49c0f, type: 3}
+  - {fileID: 21300000, guid: 12d7c8e2c72534c469b708ffdfba4819, type: 3}
+  - {fileID: 21300000, guid: f79a7bb353d491c48a7c272388baff9a, type: 3}
+  - {fileID: 21300000, guid: 59656ce6a79d86549a451bad0ef6189b, type: 3}
+  - {fileID: 21300000, guid: c78981f64eda2c149bc1ca504fb8c1a9, type: 3}
+  - {fileID: 21300000, guid: fd7f19979f3271442812475ad6e91d12, type: 3}
+  - {fileID: 21300000, guid: 1b23fdd97c8f77e4091d81242eec90bd, type: 3}
+  - {fileID: 21300000, guid: 262f060ba1a969448bf417a8fcccb145, type: 3}
+  - {fileID: 21300000, guid: d83a37cc9e70a1c469ecc27b7f5d7df7, type: 3}
+  - {fileID: 21300000, guid: 830daadcc34bc4e4b8b11be5725da2c3, type: 3}
+  - {fileID: 21300000, guid: 797ff40ec428a7d4abfd37576d3de037, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - sgll_bg_02
+  - egll_bg_01
+  - dgll_zz_02
+  - dgll_bg_03
+  - egll_bg_03
+  - egll_bg_02
+  - sgll_bg_03
+  - sgll_bg_01
+  - dgll_bg_01
+  - dgll_deco_01
+  - dgll_bg_02
+  - dgll_deco_03
+  m_RenderDataMap: {}
+  m_Tag: atlas_admission
+  m_IsVariant: 0

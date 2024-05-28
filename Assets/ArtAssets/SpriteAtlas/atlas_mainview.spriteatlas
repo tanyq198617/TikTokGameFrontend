@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: atlas_mainview
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 82e5d07b47a26904aa4e38d411ecb44a, type: 3}
+    bindAsDefault: 0
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 1b0d7a004f14382429d66f753e5754f2, type: 3}
+  - {fileID: 21300000, guid: 90863080cbad42243809c2f0c53c6706, type: 3}
+  - {fileID: 21300000, guid: ebd7a28022d53184a82f6bddea62407a, type: 3}
+  - {fileID: 21300000, guid: 8a79bba09ef29a545a4ed85ca2ca9ecd, type: 3}
+  - {fileID: 21300000, guid: 2a918dc00e5d8b64686169d98fb66857, type: 3}
+  - {fileID: 21300000, guid: aec9fbf0c887a5b4f955ffaba386b5c6, type: 3}
+  - {fileID: 21300000, guid: 1445e9f11916ed244b2ddae07afa88ea, type: 3}
+  - {fileID: 21300000, guid: ddb9d322f28934249a898604091ef559, type: 3}
+  - {fileID: 21300000, guid: 3337846203bad2849b917a0a687958ae, type: 3}
+  - {fileID: 21300000, guid: 1fda5a72cebf67c4faffef8932fba54c, type: 3}
+  - {fileID: 21300000, guid: 1c3d7bd2841ca1f4a986d3e11898e7f4, type: 3}
+  - {fileID: 21300000, guid: 7da11013fcc98e044b70492e9d20a941, type: 3}
+  - {fileID: 21300000, guid: b0a1b8a34b5e9424fbc7fd9b31c2cdd0, type: 3}
+  - {fileID: 21300000, guid: c24987540811b8246889df4d2d7df83c, type: 3}
+  - {fileID: 21300000, guid: 97140384764f65d40a302a2be2711280, type: 3}
+  - {fileID: 21300000, guid: bfa2b0b4c59f88c4b9c40589d762cfe5, type: 3}
+  - {fileID: 21300000, guid: 22c1bd05397ce324dab37c9c2a37950c, type: 3}
+  - {fileID: 21300000, guid: 4d0439d54f5b73045a8cfe3381327350, type: 3}
+  - {fileID: 21300000, guid: f3f6570651e7d794b849ac9ae09b6bd1, type: 3}
+  - {fileID: 21300000, guid: d544fc4688034fa4f823f8836fde6086, type: 3}
+  - {fileID: 21300000, guid: d44ab276667c592458faf14d3930a00f, type: 3}
+  - {fileID: 21300000, guid: 3ec03986c57e3d84f9ce07ff2a99aec2, type: 3}
+  - {fileID: 21300000, guid: 27b118c6200189f4f8977884b142d966, type: 3}
+  - {fileID: 21300000, guid: 249529d6e2db8ec4a8cff7819a101f5f, type: 3}
+  - {fileID: 21300000, guid: 68fb0c17d013497429e77b8e39e9ca79, type: 3}
+  - {fileID: 21300000, guid: 8c88022717d5b094fbc5f7057b63ddc6, type: 3}
+  - {fileID: 21300000, guid: 6e4de68711e5f6640ae2c99e07ffba7f, type: 3}
+  - {fileID: 21300000, guid: 619f9da7d690fd043b7f41b0491d8572, type: 3}
+  - {fileID: 21300000, guid: 1af8131839df13d4487fb6749aa1de11, type: 3}
+  - {fileID: 21300000, guid: 442714484f2f591438d1ae2179563756, type: 3}
+  - {fileID: 21300000, guid: 13fcd9c8068242e44ae9cdc6acd09bcd, type: 3}
+  - {fileID: 21300000, guid: 7607bec847215be4aa537836b622a8ef, type: 3}
+  - {fileID: 21300000, guid: b3d72a493ff108141b89908c301031c1, type: 3}
+  - {fileID: 21300000, guid: 6ca7dc698f3935e47845a40af869cb1d, type: 3}
+  - {fileID: 21300000, guid: 73529fc9d5d268841a976d1999d16501, type: 3}
+  - {fileID: 21300000, guid: 25f0f07a53d37c941901266b341c282e, type: 3}
+  - {fileID: 21300000, guid: 50fe5c7aef6b0d34b81b2b7807f91efd, type: 3}
+  - {fileID: 21300000, guid: 5e26bc8a11cccc14b83cb38d5f4bd9ad, type: 3}
+  - {fileID: 21300000, guid: dce85cea0e06fe04eacdfd30f0f9a5fe, type: 3}
+  - {fileID: 21300000, guid: e91eadeaf303e294db74f6f2d40dc2cb, type: 3}
+  - {fileID: 21300000, guid: 67e4c40bed3a5ce4492daf262f91cb75, type: 3}
+  - {fileID: 21300000, guid: a2bcda1bc43550342bbcdf086f80f80c, type: 3}
+  - {fileID: 21300000, guid: d690302b37366464f8f8993a3cc76515, type: 3}
+  - {fileID: 21300000, guid: 284dc93bb2d78a443b0170a193bedbac, type: 3}
+  - {fileID: 21300000, guid: 00e8ea7b377f4e149858bfc93b3e3040, type: 3}
+  - {fileID: 21300000, guid: 48413b8be38c53c42875c9c96144f666, type: 3}
+  - {fileID: 21300000, guid: be9ee4fbd88012543ba1d1cef63538f5, type: 3}
+  - {fileID: 21300000, guid: 5a43b7fb40f4f024a99652963b8012ac, type: 3}
+  - {fileID: 21300000, guid: a078331c31b20a94db318eb153ffee56, type: 3}
+  - {fileID: 21300000, guid: c218053ca504e3b4cb89dc0bd4821153, type: 3}
+  - {fileID: 21300000, guid: 5981d24c6fd030d42a33562e6f543906, type: 3}
+  - {fileID: 21300000, guid: cbdfe1cc8fb6d3c4aa9c1827640eaae7, type: 3}
+  - {fileID: 21300000, guid: e20c042d91b4d254780a420f00920e58, type: 3}
+  - {fileID: 21300000, guid: 1cf3996ead23d154298e13f6ab8e46a6, type: 3}
+  - {fileID: 21300000, guid: 065d6aaefda682f419872a881ea8dde7, type: 3}
+  - {fileID: 21300000, guid: 28f0eb0f9c6bd4240befbf0177ab63cd, type: 3}
+  - {fileID: 21300000, guid: a7f8f22fce1331b4985da2a763d8a35c, type: 3}
+  - {fileID: 21300000, guid: 3e9ea64fe783ab94c8831fe1cc4de025, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - mainview_btn_01
+  - mainview_deco_07
+  - mainview_deco_20
+  - mainview_deco_21
+  - mainview_deco_13
+  - mainview_wz_08
+  - mainview_deco_15
+  - mainview_deco_06
+  - mainview_deco_03
+  - red_mainview_jl_02
+  - blue_mainview_jl_02
+  - mainview_wz_04
+  - mainview_deco_16
+  - mainview_deco_17
+  - mainview_deco_12
+  - mainview_jdt_02
+  - mainview_wz_11
+  - mainview_deco_10
+  - mainview_wz_03
+  - mainview_bg_01
+  - mainview_sc_7
+  - mainview_qiuqiu_txk1
+  - mainview_qiuqiu_txk2
+  - mainview_wz_09
+  - mainview_deco_23
+  - mainview_deco_04
+  - mainview_wz_05
+  - mainview_jdt_04
+  - mainview_deco_09
+  - mainview_deco_02
+  - red_mainview_jl_03
+  - mainview_deco_24
+  - mainview_deco_18
+  - mainview_sc_1
+  - mainview_wz_10
+  - mainview_jdt_03
+  - mainview_deco_05
+  - mainview_deco_14
+  - mainview_deco_22
+  - mainview_deco_08
+  - mainview_sc_6
+  - mainview_sc_5
+  - mainview_wz_02
+  - mainview_qiuqiu_02
+  - mainview_sc_2
+  - mainview_qiuqiu_tx
+  - mainview_sc_3
+  - red_mainview_jl_01
+  - mainview_sc_4
+  - mainview_wz_01
+  - mainview_wz_07
+  - mainview_deco_01
+  - blue_mainview_jl_01
+  - mainview_wz_06
+  - blue_mainview_jl_03
+  - mainview_jdt_01
+  - mainview_deco_11
+  - mainview_btn_02
+  m_RenderDataMap: {}
+  m_Tag: atlas_mainview
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

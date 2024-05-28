@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: atlas_battle
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: b62c7249f6c533d4fb7347bcb2633b91, type: 3}
+    bindAsDefault: 0
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 6fe42270ff2bd9548a6aacb4fa8fb6ea, type: 3}
+  - {fileID: 21300000, guid: 92ca2f6241f58954b80702f1bd9e47ad, type: 3}
+  - {fileID: 21300000, guid: 1917b0c259918df4f9cbf028fd498ad9, type: 3}
+  - {fileID: 21300000, guid: 30e877739a01537468f1711c4c952824, type: 3}
+  - {fileID: 21300000, guid: b9e4f7242b58517468077e76fff19498, type: 3}
+  - {fileID: 21300000, guid: 0991ae56895d8bb40ad2d6c3d4ced803, type: 3}
+  - {fileID: 21300000, guid: 188cf3869e05f984db2e1e070ef5f278, type: 3}
+  - {fileID: 21300000, guid: 4dac95a6772b41f4a9f176948f721b10, type: 3}
+  - {fileID: 21300000, guid: d230b3f6f5fc2ef47a3af0e13dd63c62, type: 3}
+  - {fileID: 21300000, guid: 53e14878db1a90b4ebdafe6ae34161ac, type: 3}
+  - {fileID: 21300000, guid: 96917ad8c8c21de499abd33c954b2207, type: 3}
+  - {fileID: 21300000, guid: 20022989856a5e447bfc1318ea226787, type: 3}
+  - {fileID: 21300000, guid: 017603b999f67e04f90e9df686365578, type: 3}
+  - {fileID: 21300000, guid: 82205baa42b188c459f1c6e477dfc996, type: 3}
+  - {fileID: 21300000, guid: 8eb9487e64a74b449991bb5d82f90dd9, type: 3}
+  - {fileID: 21300000, guid: 38438d7e692e7754a9d9553f998f3da4, type: 3}
+  - {fileID: 21300000, guid: 366d0e8f0b8cbc2418081a60aefa34d5, type: 3}
+  - {fileID: 21300000, guid: 407013cf03b0cbd408410eba0a6d2fe0, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - zdjm_tx_1
+  - common_icon_1
+  - zdjm_tb_2
+  - zdjm_tx_2
+  - zdjm_lwtb_5
+  - zdjm_tb_3
+  - zdjm_lwtb_2
+  - zdjm_lwtb_1
+  - zdjm_lwtb_8
+  - default_head
+  - zdjm_lwtb_4
+  - mask
+  - ZDJM_SCDB_DB
+  - zdjm_tb_1
+  - zdjm_bg_wz6
+  - zdjm_tb_4
+  - zdjm_lwtb_7
+  - zdjm_lwtb_3
+  m_RenderDataMap: {}
+  m_Tag: atlas_battle
+  m_IsVariant: 0

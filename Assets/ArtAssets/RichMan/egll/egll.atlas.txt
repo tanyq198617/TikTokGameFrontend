@@ -1,0 +1,27 @@
+
+egll.png
+size: 4096,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+egll_bg_01
+  rotate: false
+  xy: 2, 2
+  size: 1568, 1972
+  orig: 1568, 1972
+  offset: 0, 0
+  index: -1
+egll_bg_02
+  rotate: false
+  xy: 1572, 212
+  size: 753, 507
+  orig: 807, 569
+  offset: 1, 61
+  index: -1
+egll_bg_03
+  rotate: false
+  xy: 1572, 721
+  size: 1047, 1253
+  orig: 1059, 1253
+  offset: 0, 0
+  index: -1

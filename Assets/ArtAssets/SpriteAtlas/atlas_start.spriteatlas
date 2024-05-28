@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: atlas_start
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 018f7bddbd100734882afcbded242c71, type: 3}
+    bindAsDefault: 0
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 393c3490898b9124e99676015d3b7f10, type: 3}
+  - {fileID: 21300000, guid: e6852f01c15171b4fb26668689dc48f1, type: 3}
+  - {fileID: 21300000, guid: 9029af61242cdc34b91c9fb6487c361b, type: 3}
+  - {fileID: 21300000, guid: 6ca1fc242d90d4d4fa3168c253902e64, type: 3}
+  - {fileID: 21300000, guid: 27d70a8503b73a846b1c0959777ac360, type: 3}
+  - {fileID: 21300000, guid: 312c66e72ade9f942a8b6378433048f1, type: 3}
+  - {fileID: 21300000, guid: 039d4029a77d3dc4ca6decde777737aa, type: 3}
+  - {fileID: 21300000, guid: a3940629e4e53714bb03e3227128cf62, type: 3}
+  - {fileID: 21300000, guid: 670139296b1dac24e8b21de69c0a6b0a, type: 3}
+  - {fileID: 21300000, guid: 5a68d1ba65dd21f488b7ecb3b98966c5, type: 3}
+  - {fileID: 21300000, guid: 19274d3b1501d774c848c5f349ca0541, type: 3}
+  - {fileID: 21300000, guid: e07a51ebd89bb254d9b1daee94247424, type: 3}
+  - {fileID: 21300000, guid: 6679a07c1ff32a24faabd90ff78adfb2, type: 3}
+  - {fileID: 21300000, guid: ce97159c8f456e8498f39d3be31ce935, type: 3}
+  - {fileID: 21300000, guid: a606587d126552648a5ace01e3d644ed, type: 3}
+  - {fileID: 21300000, guid: 6658690e3e17d244eb60730970692bec, type: 3}
+  - {fileID: 21300000, guid: 60cc4f4e9d8fdc947a0d3816de2829b1, type: 3}
+  - {fileID: 21300000, guid: 6bdb84dfd322b7c49bc5226cffba1497, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - zc_deco_02
+  - zc_deco_04
+  - zc_deco_10
+  - zc_deco_03
+  - zc_deco_15
+  - zc_deco_07
+  - zc_bg_04
+  - zc_deco_09
+  - zc_bg_03
+  - zc_deco_11
+  - zc_deco_01
+  - zc_bg_01
+  - zc_deco_14
+  - zc_deco_06
+  - zc_deco_08
+  - zc_bg_02
+  - zc_deco_12
+  - zc_deco_13
+  m_RenderDataMap: {}
+  m_Tag: atlas_start
+  m_IsVariant: 0

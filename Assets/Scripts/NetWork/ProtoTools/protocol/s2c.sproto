@@ -1,0 +1,182 @@
+.package {
+    type 0 : integer
+    session 1 : integer
+}
+
+heartbeat 1 {
+}
+
+s2c_test 2 {
+    request {}
+}
+
+.open_info {
+    openid 0          : string #  账号id
+    nickname 1        : string # 昵称
+    avatar_url 2      : string # 头像
+    win_count 3       : integer # 赢的次数
+    win_combo 4       : integer # 连胜的次数
+    room_win_cnt 5    : integer # 房间连胜次数
+    rank_begin 6      : integer # 世界排名变化起始排名，只有当局才有值
+    rank_end 7        : integer # 世界排名变化结束排名，只有当局才有值
+    world_score 8     : string # 世界排名分数，只有当局有值
+}
+
+.rank_info {
+    openid 0 : string
+    score 1 : string                # 分数
+    rank 2 : integer                # 排名
+    open_info 3 : open_info         # 用户信息
+    family 4 : string               # 家族（send_spec_openinfo 使用）
+}
+
+send_rank_data_start 3 {            # 开始发送排行榜信息
+    request {
+        rank_type 0 : integer       # 排行榜类型
+        id        1 : string        # 排行榜ID
+    }
+}
+
+send_rank_data 4 {                  # 发送排行榜信息
+    request {
+        rank_type 0 : integer       # 排行榜类型
+        rank_data 1 : *rank_info    # 玩家信息
+        id        2 : string        # 排行榜ID
+    }
+}
+
+send_rank_data_end 5 {              # 结束发送排行榜信息
+    request {
+        rank_type 0 : integer       # 排行榜类型
+        id        1 : string        # 排行榜ID
+    }
+}
+
+.douyin_comment {
+    openid    1 : string        # 用户openid
+    content   2 : string        # 内容
+    avatar_url 3 :string        # 头像
+    nickname  4 : string        # 昵称
+    king 5 : integer            # 皇帝排名（不是皇帝为-1）
+    small_king 6 : integer      # 小皇帝排名（不是小皇帝为-1）
+    family  7 : string          # 家族
+    win_combo 8 : integer       # 连胜的次数
+}
+
+send_douyin_comment 6 {             # 用户评论
+    request {
+        list 0: *douyin_comment     # 记录
+    }
+}
+
+.douyin_gift {
+    openid    1 : string        # 用户openid
+    avatar_url 3 :string        # 头像
+    nickname  4 : string        # 昵称
+    gift_id 5:string            # 礼物id
+    gift_num 6: integer         # 礼物数量
+    king 7 : integer            # 皇帝排名（不是皇帝为-1）
+    small_king 8 : integer      # 小皇帝排名（不是小皇帝为-1）
+    gift_total 9 : integer      # 礼物总数（当局）
+    family  10 : string         # 家族
+    win_combo 11 : integer      # 连胜的次数
+}
+
+send_douyin_gift 7 {                # 用户礼物
+    request {
+        list 0: *douyin_gift        # 记录
+    }
+}
+
+kick_user 8 {              # 玩家将被踢下线
+    request {
+        reason 0 : integer # 被踢原因(const.kick_user_reason)
+    }
+}
+
+send_douyin_king_spec 9 {           # 皇帝特殊内容
+    request {
+        content 0 : string          # 内容
+        openid  1 : string          # 用户openid
+    }
+}
+
+send_room_info 10 {                 # 房间信息
+    request {
+        room_id 0:string            # room id
+    }
+}
+
+.douyin_like {
+    openid    1 : string        # 用户openid
+    avatar_url 3 :string        # 头像
+    nickname  4 : string        # 昵称
+    like_num 6: integer         # 点赞数量
+    king 7 : integer            # 皇帝排名（不是皇帝为-1）
+    small_king 8 : integer      # 小皇帝排名（不是小皇帝为-1）
+    family  9 : string          # 家族
+    win_combo 10 : integer       # 连胜的次数
+}
+
+send_douyin_like 11 {               # 用户点赞
+    request {
+        list 0: *douyin_like        # 记录
+    }
+}
+
+.douyin_choose_side {
+    openid    1 : string        # 用户openid
+    content   2 : string        # 选边内容
+    avatar_url 3 :string        # 头像
+    nickname  4 : string        # 昵称
+    king 5 : integer            # 皇帝排名（不是皇帝为-1）
+    small_king 6 : integer      # 小皇帝排名（不是小皇帝为-1）
+    world_score 7 : integer     # 世界榜分数
+    world_rank 8 : integer      # 世界榜排名
+    win_combo 9 : integer       # 连胜的次数
+    family  10 : string         # 家族
+    win_lock 11: integer        # 连胜锁定 0否1是
+    rejoin_acc 12:integer       # 回流账号 0否1是
+    top_acc 13:integer          # 月榜账号 0否1是
+}
+
+send_douyin_choose_side 12 {         # 用户选边
+    request {
+        list 0: *douyin_choose_side # 记录
+    }
+}
+
+send_spec_openinfo_start 13 {       # 开始用户信息（用于家族榜）
+    request {
+        rank_type 0 : integer       # 排行榜类型
+    }
+}
+
+send_spec_openinfo 14 {             # 发送用户信息（用于家族榜）
+    request {
+        rank_type 0 : integer       # 排行榜类型
+        infos 1 : *rank_info        # 玩家信息
+    }
+}
+
+send_spec_openinfo_end 15 {         # 结束用户信息（用于家族榜）
+    request {
+        rank_type 0 : integer       # 排行榜类型
+    }
+}
+
+send_douyin_family_spec 16 {        # 家族特殊内容
+    request {
+        content 0 : string          # 内容
+        openid  1 : string          # 用户openid
+        family  2 : string          # 家族
+    }
+}
+
+send_douyin_win_combo_content 17 {  # 连胜内容
+    request {
+        content 0 : string          # 内容
+        openid  1 : string          # 用户openid
+        win_combo 2 : integer       # 连胜的次数
+    }
+}

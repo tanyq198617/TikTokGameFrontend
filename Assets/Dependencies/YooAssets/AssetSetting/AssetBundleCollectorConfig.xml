@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root Version="2.4">
+  <Common AutoAddressable="False" LocationToLower="False" IncludeAssetGUID="False" UniqueBundleName="True" ShowPackageView="False" ShowEditorAlias="False" />
+  <Package PackageName="Main" PackageDesc="">
+    <Group GroupActiveRule="EnableGroup" GroupName="Prefabs" GroupDesc="预制体" AssetTags="">
+      <Collector CollectPath="Assets/HotUpdateResources/Prefabs" CollectGUID="0d75fd8c0b4cc9a4985fdd9f0ce92212" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackSeparately" FilterRule="CollectAll" UserData="" AssetTags="" />
+    </Group>
+    <Group GroupActiveRule="EnableGroup" GroupName="UI" GroupDesc="纸片UI" AssetTags="">
+      <Collector CollectPath="Assets/ArtAssets/UI/Texture" CollectGUID="efa23ee9f9be92042addafc5b1a96a63" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackSeparately" FilterRule="CollectAll" UserData="" AssetTags="" />
+    </Group>
+    <Group GroupActiveRule="EnableGroup" GroupName="Shader" GroupDesc="着色器" AssetTags="">
+      <Collector CollectPath="Assets/HotUpdateResources/Shader" CollectGUID="d715e46668fbeb34fb33ec8a9bef6286" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackDirectory" FilterRule="CollectAll" UserData="" AssetTags="" />
+      <Collector CollectPath="Assets/HotUpdateResources/ShaderVariants" CollectGUID="5fdcd1aab5325834484e303dc16a975f" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackDirectory" FilterRule="CollectShaderVariants" UserData="" AssetTags="" />
+      <Collector CollectPath="Assets/ArtAssets/Tools/Shader" CollectGUID="7b867514f1283e44fb246f23b4490def" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackDirectory" FilterRule="CollectAll" UserData="" AssetTags="" />
+      <Collector CollectPath="Assets/Dependencies/MeshAnimator/Shaders" CollectGUID="0078a73aae091a44d89bbd028fbf827f" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackDirectory" FilterRule="CollectAll" UserData="" AssetTags="" />
+    </Group>
+    <Group GroupActiveRule="EnableGroup" GroupName="Codes" GroupDesc="元数据Dll" AssetTags="">
+      <Collector CollectPath="Assets/HotUpdateResources/Codes" CollectGUID="f5acf23ae43382a45a1f39cab4349eec" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackRawFile" FilterRule="CollectAll" UserData="" AssetTags="" />
+    </Group>
+    <Group GroupActiveRule="EnableGroup" GroupName="Other" GroupDesc="字体和其他" AssetTags="">
+      <Collector CollectPath="Assets/HotUpdateResources/Other" CollectGUID="a2498d3e03791a4409e417cb9424a25c" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackSeparately" FilterRule="CollectAll" UserData="" AssetTags="" />
+    </Group>
+    <Group GroupActiveRule="EnableGroup" GroupName="Scenes" GroupDesc="场景" AssetTags="">
+      <Collector CollectPath="Assets/HotUpdateResources/Scenes" CollectGUID="cf6b065df237e6f488ef3f5013d013ae" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackSeparately" FilterRule="CollectAll" UserData="" AssetTags="" />
+      <Collector CollectPath="Assets/ArtAssets/Map/Scenes" CollectGUID="0a55fd2fe6a49aa43b2a1caa21fdea03" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackSeparately" FilterRule="CollectAll" UserData="" AssetTags="" />
+    </Group>
+    <Group GroupActiveRule="EnableGroup" GroupName="TextAsset" GroupDesc="配置表" AssetTags="">
+      <Collector CollectPath="Assets/HotUpdateResources/TextAsset/table" CollectGUID="bc4d7c338ee667545b2df5262449c20a" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackDirectory" FilterRule="CollectAll" UserData="" AssetTags="table" />
+    </Group>
+    <Group GroupActiveRule="EnableGroup" GroupName="SpriteAtlas" GroupDesc="图集 SpriteAtlas" AssetTags="">
+      <Collector CollectPath="Assets/ArtAssets/SpriteAtlas" CollectGUID="622ae93dad031304e84c4159cd0ce939" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackSeparately" FilterRule="CollectAll" UserData="" AssetTags="" />
+    </Group>
+    <Group GroupActiveRule="EnableGroup" GroupName="Audio" GroupDesc="音效Audio" AssetTags="">
+      <Collector CollectPath="Assets/HotUpdateResources/Audio" CollectGUID="3c356117cbd8b024d9789a4659815bcb" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackDirectory" FilterRule="CollectAll" UserData="" AssetTags="" />
+    </Group>
+    <Group GroupActiveRule="EnableGroup" GroupName="Font" GroupDesc="字体库 Font" AssetTags="">
+      <Collector CollectPath="Assets/HotUpdateResources/Font" CollectGUID="daf5e46dd47f5734aa2ac57a820e8130" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackDirectory" FilterRule="CollectAll" UserData="" AssetTags="" />
+    </Group>
+  </Package>
+</root>

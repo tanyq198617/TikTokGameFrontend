@@ -1,0 +1,123 @@
+.package {
+	type 0 : integer
+	session 1 : integer
+}
+
+handshake 1 {
+    request {}
+}
+
+get 2 {
+	request {
+		what 0 : string
+	}
+	response {
+		result 0 : string
+	}
+}
+
+heartbeat 3 { # 心跳
+    request { } 
+    response { }
+}
+
+
+# account_type 描述见 const.accout_type
+login 100 {
+    request {
+        account_type 1 : string # "qq", "wc", "test", "phone", "xiaomi", "oppo", "fastlogin", "xiaomi_com"  
+        openid 2 : string  
+        token 3 : string
+        device_info 4 : string # 设备信息 json格式 
+        # {"os_type" = const.os_type, "brand"="xxx", "IMEI"="", "ChannelId"="xm123456", 
+        #   "androidid":"xxx", "idfa":"ios系统才有的"}
+        appver 5 : string # 客户端版本号 "1.1.1.0930_a"
+        extra 6 : string # 附加信息 json格式
+            # {appstore=true, reconnect=true, reconnect_token='abcd', nickname='xxx' unionid='nil',
+            #  install_source=1, ad_source='xxx', complete_app=true}
+        
+    }
+    response {
+        error_code 0 : integer
+        error_msg 1 : string
+        user_info 2 : string # 登陆成功返回的数据, json格式
+        # { account_id = 123, 
+        #   uid="123", 
+        #   nickname="abc", 
+        # }
+        openid 3 : string
+        token 4 : string
+        app_update_info 5 : integer # 当版本不兼容时返回的更新信息,客户端版本底号
+    }
+}
+
+req_rank_info 101 {             # 请求排行榜信息
+    request {
+        rank_type 0 : integer   # 排行榜类型：1-世界榜 2-房间榜 3-本局榜 4-家族榜 5-连胜榜
+    }
+    response {
+        error_code 0 : integer
+        rank_type 1 : integer   # 排行榜类型
+    }
+}
+
+start_room 102 {                # 开启房间（废弃）
+    request {
+        room_id 0 : string      # 房间id tt.getRoomInfo roomID
+    }
+    response {
+        error_code 0 : integer
+    }
+}
+
+.record {
+    openid 0 : string
+    count 1 : integer
+}
+
+kill_record 103 {                # 击杀记录（一段时间内的击杀记录）
+    request {
+        msg_list 0 : *record     # 击杀记录
+    }
+    response {
+        error_code 0 : integer
+    }
+}
+
+._res_win_combo {
+    openid 0 : string
+    win_combo 1 : integer
+}
+
+
+game_result 104 {                # 游戏结果（游戏结束并清空本局排行榜）
+    request {
+        result 0 : integer       # 游戏结果，胜利的一方，1或者2
+    }
+    response {
+        error_code 0 : integer
+        world_rank_t 1 : integer  # 世界榜获取延迟时间
+        family_rank_t 2 : integer # 家族榜获取延迟时间
+        win_comboes 3: *_res_win_combo # 连胜数据
+    }
+}
+
+game_start 105 {                # 游戏开始
+    request {
+    }
+    response {
+        error_code 0 : integer
+    }
+}
+
+gm 106 { # 客户端gm
+    request {
+        cmd 0 : string # sg 10000
+    }
+    response {
+        error_code 0 : integer
+        error_msg 1 : string
+        help 2 : string # 当cmd == help 时返回所有支持的gm
+        result 3 : string # json 格式
+    }
+}

@@ -1,0 +1,27 @@
+
+sgll.png
+size: 1988,2288
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sgll_bg_01
+  rotate: true
+  xy: 2, 776
+  size: 1508, 1716
+  orig: 1537, 1717
+  offset: 29, 1
+  index: -1
+sgll_bg_02
+  rotate: true
+  xy: 1439, 42
+  size: 732, 544
+  orig: 762, 568
+  offset: 1, 23
+  index: -1
+sgll_bg_03
+  rotate: true
+  xy: 2, 2
+  size: 772, 1435
+  orig: 772, 1435
+  offset: 0, 0
+  index: -1

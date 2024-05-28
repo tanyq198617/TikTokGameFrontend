@@ -1,0 +1,27 @@
+
+dgll.png
+size: 2116,2116
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dgll_bg_01
+  rotate: false
+  xy: 2, 198
+  size: 1349, 1915
+  orig: 1349, 1915
+  offset: 0, 0
+  index: -1
+dgll_bg_02
+  rotate: false
+  xy: 1353, 237
+  size: 741, 491
+  orig: 748, 502
+  offset: 1, 10
+  index: -1
+dgll_bg_03
+  rotate: false
+  xy: 1353, 730
+  size: 760, 1383
+  orig: 760, 1383
+  offset: 0, 0
+  index: -1

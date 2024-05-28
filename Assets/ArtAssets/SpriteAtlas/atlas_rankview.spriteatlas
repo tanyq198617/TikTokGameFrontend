@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: atlas_rankview
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 6c3897cb23294894b928e4735fd886ea, type: 3}
+    bindAsDefault: 0
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 0fdd6e30a06220541b6b34be4988eab3, type: 3}
+  - {fileID: 21300000, guid: ecf20eb1f2aaa014d8941eca3da44bd0, type: 3}
+  - {fileID: 21300000, guid: fcc8d972dfd4f9e4784d550ce9518429, type: 3}
+  - {fileID: 21300000, guid: 2765e0e284e89c240a45c08b5efd9063, type: 3}
+  - {fileID: 21300000, guid: 60962ce2a41ce594ea6884af80caf4ee, type: 3}
+  - {fileID: 21300000, guid: 01df4a03a62ee1f4ea005099c7201312, type: 3}
+  - {fileID: 21300000, guid: 6d0e05334ba4daa4d931f0e0cb350c94, type: 3}
+  - {fileID: 21300000, guid: 7433c833c121d6248b289c8698658661, type: 3}
+  - {fileID: 21300000, guid: ed95df935ec0232488e7b96e91284a25, type: 3}
+  - {fileID: 21300000, guid: 90fa16d3a4b915345a19a2d10e92d5a5, type: 3}
+  - {fileID: 21300000, guid: f66918e4d7f7b9f41bb25ca304bc6756, type: 3}
+  - {fileID: 21300000, guid: 58b5b606eb3451c4a8b2f307dec05eae, type: 3}
+  - {fileID: 21300000, guid: 60db3e171729b3c48ba5a82125c55466, type: 3}
+  - {fileID: 21300000, guid: 46ad545a911340e4094ec50cda0f1ea9, type: 3}
+  - {fileID: 21300000, guid: 51f2ceba91a56c449b46b3f2e78f1aa1, type: 3}
+  - {fileID: 21300000, guid: 542fbe3c16226aa4684540fae5274b12, type: 3}
+  - {fileID: 21300000, guid: 6b7520ac28e4b294eac241894fcd0881, type: 3}
+  - {fileID: 21300000, guid: 3fd00acc2c1b0834c812479be6e91e10, type: 3}
+  - {fileID: 21300000, guid: f4f637ee36deddf4eb0de808c3e15c68, type: 3}
+  - {fileID: 21300000, guid: 488dd29f175191a41a1de017cd1448d8, type: 3}
+  - {fileID: 21300000, guid: 0d71b8dfada422846a277da3849c324c, type: 3}
+  - {fileID: 21300000, guid: 04c172ef4a3045b4e94032e10435e8e6, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - rank_bg_09
+  - rank_bg_05
+  - rank_bg_06
+  - rank_bg_03
+  - rank_deco_08
+  - rank_bg_01
+  - rank_deco_11
+  - rank_deco_02
+  - rank_bg_08
+  - rank_image_3
+  - rank_bg_07
+  - rank_deco_10
+  - rank_bg_02
+  - rank_image_2
+  - rank_deco_09
+  - rank_deco_12
+  - rank_bg_04
+  - rank_deco_07
+  - rank_image_1
+  - rank_zz_01
+  - rank_deco_06
+  - rank_deco_01
+  m_RenderDataMap: {}
+  m_Tag: atlas_rankview
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

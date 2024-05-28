@@ -1,0 +1,33 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.EventSystems;
+using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+
+[UIBind(UIPanelName.$PanelName)]
+public class $PanelName : APanelBase
+{
+    public static $PanelName Instance { get { return Singleton<$PanelName>.Instance; } }
+
+    public $PanelName() : base()
+    {
+        isFilm = true;
+        m_Type = UIPanelType.One;
+    }    
+$fieldsBuilder
+    public override void Init()
+    {
+        base.Init();
+$initBuilder
+    }
+
+    
+    public override void OnClick(GameObject obj, PointerEventData eventData)
+    {
+        base.OnClick(obj, eventData);
+
+$clickBuilder
+    }
+}
